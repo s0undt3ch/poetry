@@ -134,6 +134,15 @@ the dependencies installed are still working even if your dependencies released 
 
     For libraries it is not necessary to commit the lock file.
 
+### Installing dependencies only
+
+Poetry will install all of a project's dependencies and the current project by default.
+
+If you want to install the dependencies only, run the `install` command with the `--no-root` flag:
+
+```bash
+poetry install --no-root
+```
 
 ## Updating dependencies to their latest versions
 

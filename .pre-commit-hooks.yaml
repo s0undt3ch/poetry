@@ -1,5 +1,5 @@
 ---
--   id: poetry
+-   id: poetry-lock
     name: poetry-lock
     entry: poetry lock
     language: python

@@ -8,7 +8,7 @@
     files: 'pyproject.toml'
     require_serial: true
     pass_filenames: false
-    additional_dependencies: []
+    additional_dependencies: [.]
     minimum_pre_commit_version: 0.14.0
 -   id: poetry-export
     name: poetry-export
@@ -19,5 +19,5 @@
     files: 'poetry.lock'
     require_serial: true
     pass_filenames: false
-    additional_dependencies: []
+    additional_dependencies: [.]
     minimum_pre_commit_version: 0.14.0
